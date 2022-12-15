@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply focus:border-purple outline-none border rounded-lg p-2 w-full;
+  }
+  .input-error {
+    @apply  border-red  focus:outline-1;
+  }
+  .label {
+    @apply text-[12px] mb-1 text-very-dark;
+  }
+  .btn {
+    @apply bg-very-dark  text-white py-[14px] px-6 rounded-lg;
+  }
+}
